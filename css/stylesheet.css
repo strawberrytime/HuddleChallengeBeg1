@@ -1,0 +1,321 @@
+/********** base css **********/
+
+
+/********** tags **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 600;
+  max-width: 100%;
+  color: #00252e;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 900;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 900;
+}
+
+p {
+  margin: 0;
+  right: 5%;
+}
+
+footer {
+  margin-top: 3%;
+  padding-bottom: 2%;
+}
+
+/********** top container **********/
+
+
+.top-container {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin: 0;
+  margin-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  background-color: #ebfbff;
+  background-image: url("/Users/Rosemarie/Desktop/Web Development/huddle-landing-page/images/bg-hero-desktop.png");
+}
+
+.top-logo {
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  width: 200px;
+}
+
+.btn-try-it-free {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  box-shadow: 2px 2px 5px 0 silver, -2px -2px 5px 0 silver;
+  font-family: 'Poppins', sans-serif;
+  color: #00252e;
+  font-size: 12px;
+  background: #ffffff;
+  padding: 5px 40px;
+  text-decoration: none;
+  position: absolute;
+  top: 30px;
+  right: 5%;
+}
+
+.btn-try-it-free:hover {
+  background: #ff52bf;
+  text-decoration: none;
+}
+
+.top-container-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  padding: 10% 5% 5% 5%;
+}
+
+.top-container-left {
+  width: 40%;
+  margin-right: auto;
+  margin-top: 10%;
+  order: 1;
+}
+
+.top-container-right {
+  width: 50%;
+  margin-left: auto;
+  order: 2;
+}
+
+.top-blurb {
+  margin-bottom: 30px;
+}
+
+.top-right-img {
+  width: 100%;
+}
+
+.btn-get-started {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  box-shadow: 2px 2px 5px 0 silver, -2px -2px 5px 0 silver;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  background: #ff52bf;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+.btn-get-started:hover {
+  background: #808d99;
+  text-decoration: none;
+}
+
+/********** first and third containers **********/
+
+.first-container,
+.third-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-color: silver;
+  border-width: thick;
+  border-radius: 15px;
+}
+
+.first-container-left,
+.third-container-left {
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.growing-img,
+.users-img {
+  width: 100%;
+}
+
+.first-container-right,
+.third-container-right {
+  width: 40%;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+/********** second container **********/
+
+.second-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 2% 5%;
+  border-style: solid;
+  border-color: silver;
+  border-width: thick;
+  border-radius: 15px;
+}
+
+.second-container-right {
+  width: 30%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.flowing-img {
+  width: 100%;
+}
+
+.second-container-left {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+/********** bottom container **********/
+
+.bottom-container {
+  position: relative;
+  background-color: #00252e;
+  color: white;
+  margin-top: 20%;
+}
+
+.ready-to-build-container {
+  border-style: solid;
+  border-color: silver;
+  border-width: thick;
+  border-radius: 15px;
+  background-color: white;
+  color: #00252e;
+  width: 50%;
+  position: absolute;
+  display: inline-block;
+  margin-top: -10%;
+  margin-left: 25%;
+}
+
+.ready-header {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.btn-get-started-bottom-container {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10%;
+}
+
+.btn-get-started-bottom {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  box-shadow: 2px 2px 5px 0 silver, -2px -2px 5px 0 silver;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  background: #ff52bf;
+  padding: 2% 5% 2% 5%;
+  text-decoration: none;
+}
+
+.btn-get-started-bottom:hover {
+  background: #808d99;
+  text-decoration: none;
+}
+
+.bottom-flex-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.bottom-content-one {
+  width: 30%;
+  margin-right: 10%;
+
+}
+
+.bottom-content-two,
+.bottom-content-three,
+.bottom-content-four,
+.bottom-content-five {
+  width: 20%;
+  margin-bottom: 10%;
+}
+
+.huddle-logo-white-container {
+  width: 20%;
+  margin-left: 5%;
+  padding-top: 15%;
+}
+.huddle-logo-white {
+  width: 100%;
+  margin: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.location-blurb,
+.phone-number,
+.email {
+  margin-left: 30px;
+  margin-bottom: 5%;
+  margin-block-start: 0;
+}
+
+.tiny-print {
+  margin-bottom: 5%;
+}
+
+.social-icons {
+  width: 10%;
+  padding-top: 2%;
+}
+
+.copyright {
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 0
+}
+
+.attribution a {
+  color: #3e52a3;
+  color: hsl(228, 45%, 44%);
+}
